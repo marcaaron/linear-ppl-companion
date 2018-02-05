@@ -1,0 +1,159 @@
+body,html,#root{
+	width:100%;
+	margin:0 auto;
+	padding:0;
+}
+.table-container{
+	/* box-sizing: border-box; */
+	display:grid;
+	grid-template-columns: 25% 45% 20%;
+	grid-template-rows: auto;
+	/* border:solid black 3px; */
+	width:90%;
+	margin:0 auto;
+	height:auto;
+	grid-column-gap: 10px;
+	grid-row-gap: 0px;
+	text-align: center;
+}
+button{
+	font-size:1.5em;
+	margin:0;
+	padding:0;
+	width:100%;
+	display:block;
+	height:50px;
+	background:lightgrey;
+}
+.table-header{
+	grid-column-start: 1;
+	grid-column-end: 3;
+	/* border:solid red 3px; */
+	text-align: center;
+	font-size: 2em;
+}
+.table-heading{
+	padding:10px;
+	/* border:solid red 3px; */
+	font-size:1.5em;
+	font-weight:bold;
+}
+
+.table-date{
+	grid-column-start: 1;
+	grid-column-end:1;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+}
+.table-weight{
+	display:flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.leg
+{
+	padding: 5px;
+	background:rgb(255, 132, 132);
+	transition: background 0.2s;
+}
+
+.leg:hover
+{
+	background:rgb(255, 68, 68);
+	cursor:pointer;
+	transform:scale(1.05);
+	box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+
+.push1{
+	padding: 5px;
+	background:rgb(255, 195, 102);
+}
+
+.push1:hover{
+	background:rgb(255, 171, 40);
+	cursor:pointer;
+	transform:scale(1.05);
+	box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+
+.pull1{
+	padding: 5px;
+	background:rgb(252, 241, 121);
+}
+
+.pull1:hover{
+	background:rgb(255, 237, 50);
+	cursor:pointer;
+	transform:scale(1.05);
+	box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+
+.push2{
+	padding: 5px;
+	background:rgb(195, 252, 120);
+}
+
+.push2:hover{
+	background:rgb(148, 239, 28);
+	cursor:pointer;
+	transform:scale(1.05);
+	box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+
+.pull2{
+	padding: 5px;
+	background:rgb(121, 247, 234);
+}
+
+.pull2:hover{
+	background:rgb(21, 239, 217);
+	cursor:pointer;
+	transform:scale(1.05);
+	box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+._0{
+	border-top:black solid 2px;
+}
+.page-container{
+	display:flex;
+	flex-direction: column;
+	width:100%;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+.graph-container{
+	box-sizing: border-box;
+	display:grid;
+	/* border:solid black 1px; */
+	width:auto;
+	margin:20px;
+}
+.grid-space{
+	background-color: yellow;
+	display:grid;
+	/* border:1px solid red; */
+
+}
+.date-tick{
+	/* grid-column:2; */
+	border-top:solid red 2px;
+}
+.grid-item{
+	display:flex;
+	align-items: center;
+	justify-content: center;
+}
+.grid-space-items{
+	display:flex;
+	align-items: center;
+	justify-content: center;
+}
+.weight-tick{
+	grid-column:1;
+	border-right:solid red 2px;
+	/* grid-row: 1; */
+}
