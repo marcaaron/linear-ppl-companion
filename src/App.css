@@ -157,3 +157,9 @@ button{
 	border-right:solid red 2px;
 	/* grid-row: 1; */
 }
+.chart-container{
+	position:relative;
+	height:50vh;
+	width:50vh;
+	margin:auto;
+}
